@@ -22,7 +22,6 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("میوه ها")
-            .edgesIgnoringSafeArea(.)
             
         }
     }
