@@ -24,6 +24,7 @@ struct FruitRowView: View {
                 Text(fruit.headline)
                     .font(.caption)
                     .foregroundColor(Color.secondary)
+                    .multilineTextAlignment(.trailing)
                    
                 
             }
