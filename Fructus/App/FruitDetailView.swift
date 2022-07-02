@@ -34,6 +34,7 @@ struct FruitDetailView: View {
                             .multilineTextAlignment(.trailing)
                         
                         //NUTRIENTS
+                            FruitNutrientsView(fruit: fruit)
                         
                         //SUBHEADLINE
                         Text("توضیحات بیشتر \(fruit.title)")

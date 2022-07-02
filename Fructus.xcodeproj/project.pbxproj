@@ -18,6 +18,7 @@
 		51A5F05128683EB3004F76D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A5F05028683EB3004F76D2 /* Preview Assets.xcassets */; };
 		51A83C57286EB46F000A911C /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A83C56286EB46F000A911C /* SourceLinkView.swift */; };
 		51B77970286C0DE20085B424 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B7796F286C0DE20085B424 /* FruitRowView.swift */; };
+		51B8787028700316003C9D85 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B8786F28700316003C9D85 /* FruitNutrientsView.swift */; };
 		51E83429286AC4B6004709FF /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83428286AC4B6004709FF /* FruitModel.swift */; };
 		51E8342C286AC7F7004709FF /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8342B286AC7F7004709FF /* FruitData.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,7 @@
 		51A5F05028683EB3004F76D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51A83C56286EB46F000A911C /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		51B7796F286C0DE20085B424 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
+		51B8786F28700316003C9D85 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 		51E83428286AC4B6004709FF /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		51E8342B286AC7F7004709FF /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 				51B7796F286C0DE20085B424 /* FruitRowView.swift */,
 				5186EFFB286DD34E00621EA4 /* FruitHeaderView.swift */,
 				51A83C56286EB46F000A911C /* SourceLinkView.swift */,
+				51B8786F28700316003C9D85 /* FruitNutrientsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				51A83C57286EB46F000A911C /* SourceLinkView.swift in Sources */,
 				5126802928696638004D73D6 /* FruitCardView.swift in Sources */,
 				51B77970286C0DE20085B424 /* FruitRowView.swift in Sources */,
+				51B8787028700316003C9D85 /* FruitNutrientsView.swift in Sources */,
 				51A5F04C28683EAF004F76D2 /* ContentView.swift in Sources */,
 				5186EFFA286DC92500621EA4 /* FruitDetailView.swift in Sources */,
 				5126802B28697CED004D73D6 /* StartButtonView.swift in Sources */,
