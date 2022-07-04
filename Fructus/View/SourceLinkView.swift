@@ -11,10 +11,12 @@ struct SourceLinkView: View {
     var body: some View {
         GroupBox(){
             HStack{
-                Image(systemName: "arrow.up.left.square")
-                Link("ویکی پدیا", destination:  URL(string: "https://wikipedia.com")!)
-                Spacer()
                 Text("منبع محتوا")
+                Spacer()
+                Link("ویکی پدیا", destination:  URL(string: "https://wikipedia.com")!)
+                Image(systemName: "arrow.up.left.square")
+                
+               
             }
             .font(.footnote)
         }

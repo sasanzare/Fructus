@@ -40,7 +40,7 @@ struct ContentView: View {
             )
             
             
-        }
+        }.environment(\.layoutDirection, .rightToLeft)
     }
 }
 

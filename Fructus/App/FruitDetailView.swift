@@ -21,7 +21,7 @@ struct FruitDetailView: View {
                     FruitHeaderView(fruit: fruit)
                     
                     
-                    VStack(alignment: .trailing, spacing: 20){
+                    VStack(alignment: .leading, spacing: 20){
                         //TITLE
                         Text(fruit.title)
                             .font(.largeTitle)
@@ -31,7 +31,6 @@ struct FruitDetailView: View {
                         //HEADLINE
                         Text(fruit.headline)
                             .font(.headline)
-                            .multilineTextAlignment(.trailing)
                         
                         //NUTRIENTS
                             FruitNutrientsView(fruit: fruit)
@@ -43,7 +42,7 @@ struct FruitDetailView: View {
                         
                         //DESCRIPTION
                         Text(fruit.description)
-                            .multilineTextAlignment(.trailing)
+                            .multilineTextAlignment(.leading)
                         
                         //LINK
                         SourceLinkView()

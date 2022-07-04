@@ -16,9 +16,10 @@ struct SettingsView: View {
             ScrollView(.vertical, showsIndicators: false){
                 VStack(spacing: 20){
                 Text("hi")
+                       
                 }
                 .navigationBarTitle(Text("تنظیمات"), displayMode: .large)
-                .navigationBarItems( leading:
+                .navigationBarItems( trailing:
                     Button(action:{
                     presentationMode.wrappedValue.dismiss()
                 }){
@@ -27,7 +28,7 @@ struct SettingsView: View {
                 )
                 .padding()
             }
-        }
+        }.environment(\.layoutDirection, .rightToLeft)
     }
 }
 
