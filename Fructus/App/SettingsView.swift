@@ -37,7 +37,18 @@ struct SettingsView: View {
                     
                     //MARK: - SECTION 2
                     //MARK: - SECTION 3
-                
+                    
+                    GroupBox(
+                        label: SettingsLabelView(labelText: "اپلیکیشن", labelImage: "apps.iphone")
+                    ){
+                        SettingsRowView(name: "توسعه دهنده",content: "ساسان زارع")
+                        SettingsRowView(name: "طراح",content: "سپهر یونسی")
+                        SettingsRowView(name: "Compatibility",content: "IOS 14")
+                        SettingsRowView(name: "وب سایت",linkLabel: "ساسان زارع",linkDestination: "sasanzare.ir")
+                        SettingsRowView(name: "اینستاگرام",linkLabel: "@sasanzare.ir",linkDestination: "instagram.com/sasanzare.ir")
+                        SettingsRowView(name: "SwiftUI",content: "2.0")
+                        SettingsRowView(name: "نسخه",content: "0.0.1")  
+                    }
                        
                 }
                 .navigationBarTitle(Text("تنظیمات"), displayMode: .large)
