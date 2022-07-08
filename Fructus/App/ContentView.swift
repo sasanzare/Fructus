@@ -41,6 +41,7 @@ struct ContentView: View {
             
             
         }.environment(\.layoutDirection, .rightToLeft)
+            .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
