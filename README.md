@@ -292,7 +292,3 @@ The project is a strong SwiftUI learning and portfolio sample. Recommended impro
 ## Source
 
 Repository: <https://github.com/sasanzare/Fructus>
-
----
-
-This README was prepared as a portfolio-grade project document based on the public Xcode project structure, SwiftUI source files, model/data files, and asset catalog reviewed on May 31, 2026.
